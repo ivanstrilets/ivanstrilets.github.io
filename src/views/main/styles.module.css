@@ -1,4 +1,12 @@
 .page {
-  padding: 20px 12px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 100%;
 }

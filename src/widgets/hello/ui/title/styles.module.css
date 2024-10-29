@@ -1,0 +1,8 @@
+.title {
+  display: block;
+  font-size: min(18vw, 132px);
+  line-height: 84%;
+  text-transform: uppercase;
+  color: var(--color-green);
+  margin-bottom: min(4vw, 16px);
+}

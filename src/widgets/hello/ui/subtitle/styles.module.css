@@ -1,0 +1,19 @@
+.subtitle,
+.subtitleAccent {
+  font-size: 3.5vw;
+  font-size: min(8.5vw, 52px);
+  line-height: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  &:not(:last-child) {
+    margin-bottom: min(2vw, 12px);
+  }
+}
+
+.subtitle {
+  color: var(--color-white);
+}
+.subtitleAccent {
+  color: var(--color-purple);
+}

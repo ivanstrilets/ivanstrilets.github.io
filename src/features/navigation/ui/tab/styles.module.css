@@ -1,0 +1,28 @@
+.tab {
+  color: var(--color-white);
+}
+
+.tabActive {
+  color: var(--color-yellow);
+  background: var(--color-red);
+}
+
+.tab,
+.tabActive {
+  width: 100%;
+  list-style-type: none;
+  padding-top: 4px;
+}
+
+.button {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  /* background: var(--color-black); */
+  background: #27262c;
+  color: inherit;
+  font-size: 14px;
+  line-height: 1em;
+  font-weight: bold;
+  cursor: pointer;
+}
