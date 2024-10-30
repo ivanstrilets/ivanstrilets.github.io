@@ -45,6 +45,7 @@ export const MainPage = () => {
         onChange={(value) => handleTabChange(value)}
       />
       <main className={styles.main}>{components[currentTabValue].render}</main>
+      <div className={styles.dock}></div>
     </div>
   );
 };

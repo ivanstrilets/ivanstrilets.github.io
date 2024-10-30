@@ -1,11 +1,18 @@
 .hello {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  min-height: 100%;
+}
+
+.content {
+  display: flex;
   flex-direction: column;
   justify-content: center;
+  min-height: 100%;
   gap: 48px;
-  height: 100%;
   padding: 16px;
-  margin: 0 auto;
 
   @media screen and (min-width: 1200px) {
     display: grid;
