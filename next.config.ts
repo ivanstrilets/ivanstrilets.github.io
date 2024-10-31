@@ -6,7 +6,8 @@ const nextConfig: NextConfig = {
 
   webpack(config) {
     // Grab the existing rule that handles SVG imports
-    const fileLoaderRule = config.module.rules.find((rule) =>
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const fileLoaderRule = config.module.rules.find((rule: any) =>
       rule.test?.test?.(".svg")
     );
 
