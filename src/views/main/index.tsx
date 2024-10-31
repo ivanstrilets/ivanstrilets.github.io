@@ -3,6 +3,7 @@ import styles from "./styles.module.css";
 import { useState } from "react";
 import { Navigation } from "@/features/navigation";
 import { Hello } from "@/widgets/hello";
+import { DockPanel } from "@/features/dock";
 
 export const MainPage = () => {
   const [currentTabValue, setCurrentTabValue] = useState(0);
@@ -45,7 +46,9 @@ export const MainPage = () => {
         onChange={(value) => handleTabChange(value)}
       />
       <main className={styles.main}>{components[currentTabValue].render}</main>
-      <div className={styles.dock}></div>
+      <div className={styles.dock}>
+        <DockPanel />
+      </div>
     </div>
   );
 };

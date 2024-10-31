@@ -1,0 +1,28 @@
+.dock {
+  display: flex;
+  gap: 4px;
+}
+
+.dockItem,
+.placeholder {
+  color: #535359;
+  background: #27262c;
+  padding: 12px;
+
+  white-space: nowrap;
+  font-size: 14px;
+  line-height: 1em;
+
+  display: flex;
+  align-items: center;
+}
+
+.dockItem svg {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.placeholder {
+  width: 100%;
+}
