@@ -1,9 +1,9 @@
 import styles from "./styles.module.css";
 import Link from "next/link";
 
-// import HabrIcon from "../../lib/icons/habr.svg";
-// import TelegramIcon from "../../lib/icons/telegram.svg";
-// import GmailIcon from "../../lib/icons/gmail.svg";
+import HabrIcon from "../../lib/icons/habr.svg";
+import TelegramIcon from "../../lib/icons/telegram.svg";
+import GmailIcon from "../../lib/icons/gmail.svg";
 
 export const DockPanel = () => {
   return (
@@ -14,21 +14,21 @@ export const DockPanel = () => {
         href={"https://t.me/ivanstrilets"}
         target="_blank"
       >
-        {/* <TelegramIcon /> */}
+        <TelegramIcon />
       </Link>
       <Link
         className={styles.dockItem}
         href={"mailto:ivanstrilets@gmail.com"}
         target="_blank"
       >
-        {/* <GmailIcon /> */}
+        <GmailIcon />
       </Link>
       <Link
         className={styles.dockItem}
         href={"https://career.habr.com/ivan-strilets"}
         target="_blank"
       >
-        {/* <HabrIcon /> */}
+        <HabrIcon />
       </Link>
       <div className={styles.placeholder} />
     </div>

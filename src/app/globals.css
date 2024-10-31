@@ -44,7 +44,8 @@ body {
   margin: 0;
 }
 
-* {
+/* не правильно интепретирует при сборке */
+/* * {
   scrollbar-width: thin;
   scrollbar-color: #2d2d30 #1e1e1e;
 
@@ -61,7 +62,7 @@ body {
   &::-webkit-scrollbar-track {
     background: #1e1e1e;
   }
-}
+} */
 
 a {
   color: inherit;
