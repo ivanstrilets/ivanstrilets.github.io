@@ -2,8 +2,8 @@
 import styles from "./styles.module.css";
 import { useState } from "react";
 import { Navigation } from "@/features/navigation";
-import { Hello } from "@/widgets/hello";
 // import { DockPanel } from "@/features/dock";
+import { Hello } from "@/widgets/hello";
 
 export const MainPage = () => {
   const [currentTabValue, setCurrentTabValue] = useState(0);
