@@ -1,6 +1,5 @@
 import { paths } from "./svg";
-
-type Icon = keyof typeof paths;
+export type Icon = keyof typeof paths;
 
 interface DockIconProps {
   icon: Icon;

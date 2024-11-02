@@ -1,0 +1,6 @@
+:root {
+  --background: #1d1c21;
+  --foreground: #ededed;
+  --text-color: var(--color-white);
+  --panel-background: #27262c;
+}

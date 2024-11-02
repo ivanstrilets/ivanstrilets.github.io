@@ -16,7 +16,7 @@ export const MainPage = () => {
     <h1
       style={{
         width: "100%",
-        color: "var(--color-white)",
+        color: "var(--text-color)",
         alignSelf: "flex-start",
         textAlign: "center",
         padding: 20,
@@ -46,9 +46,7 @@ export const MainPage = () => {
         onChange={(value) => handleTabChange(value)}
       />
       <main className={styles.main}>{components[currentTabValue].render}</main>
-      <div className={styles.dock}>
-        <DockPanel />
-      </div>
+      <DockPanel />
     </div>
   );
 };

@@ -3,7 +3,7 @@ import { HelloSubtitle } from "./subtitle";
 import { HelloTitle } from "./title";
 import { aboutTextStub } from "../api/stub";
 
-import { ParagraphConstructor } from "@/shared/paragraphConstructor";
+import { ParagraphConstructor } from "@/shared/components/paragraphConstructor";
 
 export const Hello = () => {
   return (

@@ -6,7 +6,7 @@
 .dockItem,
 .placeholder {
   color: #535359;
-  background: #27262c;
+  background: var(--panel-background);
   padding: 12px;
 
   white-space: nowrap;

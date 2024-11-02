@@ -1,4 +1,4 @@
-import type { ParagraphConstructorRow } from "@/shared/paragraphConstructor";
+import type { ParagraphConstructorRow } from "@/shared/components/paragraphConstructor";
 
 export const aboutTextStub: ParagraphConstructorRow[] = [
   {
@@ -8,7 +8,7 @@ export const aboutTextStub: ParagraphConstructorRow[] = [
     isTag: true,
   },
   {
-    text: "Привет, меня зовут Иван() }",
+    text: "Привет, меня зовут Иван() {",
     accentSubstring: "Иван",
     accentColor: "green",
     isTag: false,

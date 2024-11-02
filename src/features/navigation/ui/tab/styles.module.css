@@ -1,5 +1,5 @@
 .tab {
-  color: var(--color-white);
+  color: var(--foreground);
 }
 
 .tabActive {
@@ -18,8 +18,7 @@
   width: 100%;
   padding: 8px;
   border: none;
-  /* background: var(--color-black); */
-  background: #27262c;
+  background: var(--panel-background);
   color: inherit;
   font-size: 14px;
   line-height: 1em;

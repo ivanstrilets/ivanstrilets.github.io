@@ -12,7 +12,7 @@
 }
 
 .subtitle {
-  color: var(--color-white);
+  color: var(--text-color);
 }
 .subtitleAccent {
   color: var(--color-purple);
